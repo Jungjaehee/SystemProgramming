@@ -16,10 +16,10 @@ void *calloc(size_t nmemb, size_t size) {
 int main(void) {
 	void* p;
 	p = calloc(0x1234,1);
-	printf("nmemb=0x1234, size=1 , calloc ��� = %p\n", p);
+	printf("nmemb=0x1234, size=1 , calloc °á°ú = %p\n", p);
 	free(p);
 	p = calloc(INT_MIN, 1);
-	printf("nmemb=INT_MIN, size=1 , calloc ��� = %p", p);
+	printf("nmemb=INT_MIN, size=1 , calloc °á°ú = %p", p);
 	free(p);
 	return 0;
 }
